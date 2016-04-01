@@ -1,0 +1,19 @@
+---
+dependencies:
+
+  - role: etckeeper
+
+galaxy_info:
+  author: 'Aleksey Avdeev'
+  description: 'Performing etckeeper commit'
+  license: 'GNU General Public License v3'
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - system
