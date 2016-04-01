@@ -1,0 +1,6 @@
+---
+- name: Etckeeper commit
+  become: true
+  when: etckeeper_enabled | bool
+  command: etckeeper commit '{{ etckeeper_commit_message }}'
+  ignore_errors: true
